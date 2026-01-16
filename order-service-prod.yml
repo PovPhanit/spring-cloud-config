@@ -1,2 +1,5 @@
 app:
   message: Application prod user-service
+
+server:
+  port: 8081
