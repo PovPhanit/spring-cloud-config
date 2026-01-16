@@ -10,7 +10,7 @@ resilience4j:
     instances:
       userServiceCB:
         registerHealthIndicator: true
-        slidingWindowSize: 5
+        slidingWindowSize: 1
         minimumNumberOfCalls: 3
-        failureRateThreshold: 50
+        failureRateThreshold: 5
         waitDurationInOpenState: 10s
