@@ -1,5 +1,5 @@
 app:
-  message: Application prod order-service
+  message: Application prod order-service update
 
 server:
   port: 8081
